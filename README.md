@@ -69,9 +69,9 @@ text. Open with a title that says what the figure shows, add only the methods
 needed to read it, state the result, then define the features. Label axes and
 encodings in the figure, so no reader opens Methods to decode them.
 
-| Before                       | After                                                                                                                                                                                           |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Figure 3: Benchmark results. | Figure 3: Query time against region size. Each point is the median of 20 runs; the blue line is the indexed query. Query time grows with region size for the scan and stays flat for the index. |
+| Before                       | After                                                                                                                                                                                               |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Figure 3: Benchmark results. | Figure 3: Query time against region size. Each point is the median of 20 runs; blue is the index and grey a full scan. Query time grows with region size for the scan and stays flat for the index. |
 
 ### Back every tool claim with an evaluation
 
