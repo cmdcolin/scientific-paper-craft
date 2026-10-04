@@ -103,13 +103,14 @@ levels below it.
 
 ### Cut words that carry no information
 
-Strunk & White: "vigorous writing is concise." Cut a clause that informs
-nothing, and keep the connectives that let a sentence parse, or the result reads
-as stilted instead of short.
+Strunk & White: "Vigorous writing is concise." The same rule goes on to say that
+this "requires not that the writer make all his sentences short ... but that
+every word tell." Cut filler, and keep the connectives that join the ideas.
+Chopping a sentence into fragments makes it shorter but harder to read.
 
-| Before                                                                          | After                                       |
-| ------------------------------------------------------------------------------- | ------------------------------------------- |
-| It should be noted that the index was found to be smaller than the scan output. | The index was smaller than the scan output. |
+| Before                                                                                                                        | After                                                             | Too far                                         |
+| ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------- |
+| It should be noted that the index was found to be smaller than the scan output, which means that it is able to fit in memory. | The index was smaller than the scan output, so it fits in memory. | Index smaller than scan output. Fits in memory. |
 
 ### Revise in a fixed order
 

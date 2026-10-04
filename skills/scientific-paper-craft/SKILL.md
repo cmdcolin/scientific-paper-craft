@@ -120,14 +120,17 @@ justify a level-3 design choice.
 ## Active voice and concision
 
 Strunk & White: prefer the active voice, and "vigorous writing is concise."
+Concision "requires not that the writer make all his sentences short ... but
+that every word tell."
 
 - A passive with no actor hides who did what: "errors were observed" against
   "we observed errors". In a software paper, say what the software does, and do
   not give it intent ("the track decides").
 - Keep idiomatic passives ("is required") and passives whose actor does not
   matter.
-- Cut a clause that informs nothing. Keep the connectives that let a sentence
-  parse, or the result reads as stilted instead of short.
+- Cut a clause that informs nothing. Keep the connectives (*so*, *because*,
+  *which*) that join ideas, and do not split a sentence into fragments to
+  shorten it. A long sentence whose clauses each carry information is fine.
 
 ## Revision order
 
