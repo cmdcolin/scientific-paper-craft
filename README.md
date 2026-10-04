@@ -58,9 +58,9 @@ _unique_ or _unprecedented_. Delete the adjective. If the sentence makes the
 same claim without it, the adjective was rhetoric, and a number or a figure lets
 the reader reach the judgment.
 
-| Before                                                      | After                                                                   |
-| ----------------------------------------------------------- | ----------------------------------------------------------------------- |
-| We present a novel, efficient tool for indexing alignments. | The index answers a region query in 12 ms, against 3 s for a full scan. |
+| Before                                              | After                                                                   |
+| --------------------------------------------------- | ----------------------------------------------------------------------- |
+| The index makes region queries dramatically faster. | The index answers a region query in 12 ms, against 3 s for a full scan. |
 
 ### Make each figure readable from its caption
 

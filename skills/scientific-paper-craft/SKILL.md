@@ -122,8 +122,8 @@ justify a level-3 design choice.
 Strunk & White: prefer the active voice, and "vigorous writing is concise."
 
 - A passive with no actor hides who did what: "errors were observed" against
-  "we observed errors in the alignment track". In a software paper, say what the
-  software does, and do not give it intent ("the track decides").
+  "we observed errors". In a software paper, say what the software does, and do
+  not give it intent ("the track decides").
 - Keep idiomatic passives ("is required") and passives whose actor does not
   matter.
 - Cut a clause that informs nothing. Keep the connectives that let a sentence
