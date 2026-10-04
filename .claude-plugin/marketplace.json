@@ -1,0 +1,19 @@
+{
+  "name": "scientific-paper-craft",
+  "owner": {
+    "name": "Colin Diesh"
+  },
+  "metadata": {
+    "description": "Claude Code skill for drafting and revising scientific papers"
+  },
+  "plugins": [
+    {
+      "name": "scientific-paper-craft",
+      "source": "./",
+      "description": "Structure and revision techniques for research and software-tool papers, each tied to a published source",
+      "version": "0.1.0",
+      "strict": false,
+      "skills": ["./skills/scientific-paper-craft"]
+    }
+  ]
+}
