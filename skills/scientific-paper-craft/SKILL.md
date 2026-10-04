@@ -123,9 +123,8 @@ Strunk & White: prefer the active voice, and "vigorous writing is concise."
 Concision "requires not that the writer make all his sentences short ... but
 that every word tell."
 
-- A passive with no actor hides who did what: "errors were observed" against
-  "we observed errors". In a software paper, say what the software does, and do
-  not give it intent ("the track decides").
+- A passive with no actor hides who did what, so name the actor. In a software
+  paper, say what the software does, and do not give it intent.
 - Keep idiomatic passives ("is required") and passives whose actor does not
   matter.
 - Cut a clause that informs nothing. Keep the connectives (*so*, *because*,
