@@ -44,11 +44,12 @@ paragraph opens with the question it answers.
 
 Gopen & Swan: "Put in the topic position the old information that links
 backward; put in the stress position the new information you want the reader to
-emphasize."
+emphasize." Open a sentence on something the reader has just read, and end it on
+the new fact.
 
-| Before                                                                 | After                                                  |
-| ---------------------------------------------------------------------- | ------------------------------------------------------ |
-| Memory use falls by 40% when the index is built with the new settings. | With the new settings, the index uses 40% less memory. |
+| Before                                                                              | After                                                                          |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| We built the index with compressed offsets. Memory use fell by 40% because of them. | We built the index with compressed offsets. The offsets cut memory use by 40%. |
 
 ### Replace a hype word with its evidence
 
@@ -58,9 +59,9 @@ _unique_ or _unprecedented_. Delete the adjective. If the sentence makes the
 same claim without it, the adjective was rhetoric, and a number or a figure lets
 the reader reach the judgment.
 
-| Before                                              | After                                                                   |
-| --------------------------------------------------- | ----------------------------------------------------------------------- |
-| The index makes region queries dramatically faster. | The index answers a region query in 12 ms, against 3 s for a full scan. |
+| Before                                        | After                                                                   |
+| --------------------------------------------- | ----------------------------------------------------------------------- |
+| The index answers region queries efficiently. | The index answers a region query in 12 ms, against 3 s for a full scan. |
 
 ### Make each figure readable from its caption
 
@@ -106,9 +107,9 @@ Strunk & White: "vigorous writing is concise." Cut a clause that informs
 nothing, and keep the connectives that let a sentence parse, or the result reads
 as stilted instead of short.
 
-| Before                                                                          | After                                      |
-| ------------------------------------------------------------------------------- | ------------------------------------------ |
-| It should be noted that the index was found to be smaller than the scan output. | The index is smaller than the scan output. |
+| Before                                                                          | After                                       |
+| ------------------------------------------------------------------------------- | ------------------------------------------- |
+| It should be noted that the index was found to be smaller than the scan output. | The index was smaller than the scan output. |
 
 ### Revise in a fixed order
 
