@@ -39,11 +39,12 @@ Mensh & Kording, "Ten Simple Rules for Structuring Papers" (*PLOS Comp Biol*,
 
 ## Hype words
 
-Vinkers et al. (*BMJ*, 2015) found positive superlatives in PubMed abstracts
-(*novel, robust, innovative, unprecedented*) up 1,404% from 1974 to 2014. Style
-guides such as *J. Org. Chem.* ban *convenient, efficient, elegant, facile,
-first, new, novel, simple, unique, unprecedented, versatile, powerful, crucial,
-groundbreaking, transformative*.
+Vinkers et al. (*BMJ*, 2015) found that the relative frequency of positive words
+in PubMed abstracts rose 880% from 1974 to 2014, and that of *robust, novel,
+innovative* and *unprecedented* rose 15,000%. The *J. Org. Chem.* author
+guidelines say not to use *convenient, efficient, elegant, expedient, facile,
+first, new, novel, practical, simple, unique, unprecedented* or *versatile*.
+Treat *powerful, crucial, groundbreaking* and *transformative* the same way.
 
 The words are not false. They assert a judgment the reader should reach from
 evidence. Delete the adjective: if the sentence claims the same thing, the
@@ -52,7 +53,7 @@ the reader reach the judgment.
 
 ## Figures and captions
 
-Journal caption guidance (AJE, TAA) and Tufte.
+AJE's guide to figure legends, and Tufte.
 
 - A reader skims the abstract, figures and conclusions before deciding to read.
   Each figure has to work without the body text.
@@ -66,8 +67,8 @@ Journal caption guidance (AJE, TAA) and Tufte.
 
 ## Active voice
 
-NIH and Nature style guidance and Strunk & White agree. A passive with no actor
-hides who did what: "errors were observed" against "we observed errors in the
+Strunk & White prefer the active voice. A passive with no actor hides who did
+what: "errors were observed" against "we observed errors in the
 alignment track". In software papers, say what the software does.
 
 Keep idiomatic passives ("is required") and passives whose actor does not
@@ -95,13 +96,30 @@ references, has to let a reader repeat every procedure.
 
 ## Discussion order
 
-State the key findings, place them against prior work to locate the novelty,
+Annesley, "The Discussion Section: Your Closing Argument" (*Clin Chem*, 2010),
+on stating limitations in the Discussion. State the key findings, place them against prior work to locate the novelty,
 state limitations, then speculate. Speculation after limitations reads as
 informed by them.
 
 - Forward-looking claims are earned only here, and only on findings Results
   already supports.
 - Introduce no new data, citations or ratios in the Discussion.
+
+## Key idea and contributions
+
+Peyton Jones, "How to write a great research paper" (Microsoft Research talk).
+His seven suggestions are: don't wait, write; identify your key idea; tell a
+story; nail your contributions; put related work at the end; put your readers
+first; listen to your readers.
+
+- Write down the key idea in one sentence before drafting, and state it
+  explicitly in the Introduction: "The main idea of this paper is ...".
+- List the contributions as claims the paper substantiates. Each claim names the
+  section or result that supports it, and the list drives the paper.
+- Putting related work at the end is his suggestion. A venue's convention
+  overrides it, and so does a project's own rule.
+- Ask someone outside the project to read a draft and say where they stopped
+  understanding.
 
 ## Visualization papers
 
@@ -137,17 +155,25 @@ would conflict with it if applied afterward.
 
 ## Sources
 
-- Gopen & Swan, "The Science of Scientific Writing," *American Scientist* 78(6),
-  1990.
-- Mensh & Kording, "Ten Simple Rules for Structuring Papers," *PLOS Comp Biol*,
-  2017.
-- Romano & Moore, "Ten Simple Rules for Writing a Paper About Scientific
-  Software," *PLOS Comp Biol*, 2020.
-- Medvedev, "Ten Simple Rules for Writing Algorithmic Bioinformatics Conference
-  Papers," *PLOS Comp Biol*, 2020.
-- Vinkers, Tijdink & Otte, "Use of positive and negative words in scientific
-  PubMed abstracts between 1974 and 2014," *BMJ*, 2015.
-- Munzner, "A Nested Model for Visualization Design and Validation," *IEEE TVCG*,
-  2009.
+- Gopen & Swan, ["The Science of Scientific Writing,"](https://www.jstor.org/stable/29774235)
+  *American Scientist* 78(6):550-558, 1990.
+- Mensh & Kording, ["Ten Simple Rules for Structuring Papers,"](https://doi.org/10.1371/journal.pcbi.1005619)
+  *PLOS Comput Biol* 13(9):e1005619, 2017.
+- Romano & Moore, ["Ten Simple Rules for Writing a Paper About Scientific Software,"](https://doi.org/10.1371/journal.pcbi.1008390)
+  *PLOS Comput Biol* 16(11):e1008390, 2020.
+- Medvedev, ["Ten Simple Rules for Writing Algorithmic Bioinformatics Conference Papers,"](https://doi.org/10.1371/journal.pcbi.1007742)
+  *PLOS Comput Biol* 16(4):e1007742, 2020.
+- Annesley, ["The Discussion Section: Your Closing Argument,"](https://doi.org/10.1373/clinchem.2010.155358)
+  *Clin Chem* 56(11):1671, 2010.
+- Vinkers, Tijdink & Otte, ["Use of positive and negative words in scientific
+  PubMed abstracts between 1974 and 2014,"](https://doi.org/10.1136/bmj.h6467)
+  *BMJ* 351:h6467, 2015.
+- [*J. Org. Chem.* author guidelines](https://researcher-resources.acs.org/publish/author_guidelines?coden=joceah),
+  American Chemical Society.
+- Munzner, ["A Nested Model for Visualization Design and Validation,"](https://doi.org/10.1109/TVCG.2009.111)
+  *IEEE TVCG* 15(6):921-928, 2009.
+- AJE, ["Writing an Effective Figure Legend."](https://www.aje.com/arc/writing-effective-figure-legend)
+- Tufte, *The Visual Display of Quantitative Information*, Graphics Press, 1983.
+- Peyton Jones, ["How to write a great research paper,"](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/)
+  Microsoft Research.
 - Strunk & White, *The Elements of Style*.
-- AJE and TAA figure-caption guidance.
