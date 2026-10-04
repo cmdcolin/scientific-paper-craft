@@ -23,6 +23,17 @@ contribution stated clearly and succinctly.
   supported by the rest of the paper.
 - Put related work where the venue's convention puts it. Peyton Jones suggests
   the end, and a project's own rule overrides that.
+- Credit precisely. Say what you took from prior work: the evidence that an
+  approach works, the idea, or the code. "Following X's example" and "with X as
+  our model" tell the reader the implementation derives from X. If it does not,
+  write what happened: "X's success with Y inspired this work, which we
+  implemented independently."
+- A short Introduction is fine; an unanchored one is not. Peyton Jones puts
+  the problem and the contributions on the first page and the history nowhere.
+  Keep it short, and anchor every sentence: cite your own prior release at its
+  first mention, cite the datasets that document the need instead of asserting
+  it, and give the field gap in a peer's words with a citation rather than as
+  your own verdict.
 
 ## Paragraph arcs
 
@@ -36,6 +47,14 @@ story, the content advances it, and the conclusion resolves it.
   paragraph opens with the question it answers and ends on its conclusion.
 - Rule 4: avoid zig-zag, where a paragraph moves between topics and back, and
   use parallel structure for parallel ideas.
+- A sentence that states a fact and draws no consequence floats, and the
+  reader has to guess why it is there. End it on the consequence ("so its
+  redraw time grows with the reads in view") or open the next sentence on the
+  cause. When the cause is your own work, say so: "because we put our
+  optimization work into the parsers", not "where that work is largest".
+- Parallel items stay at one level of detail. One specific example attached to
+  one item of a general list narrows the reader's view of the whole list; keep
+  the list general and put the example in Results.
 
 ## Sentence stress
 
@@ -132,6 +151,11 @@ that every word tell."
   shorten it. A long sentence whose clauses each carry information is fine.
 
 ## Revision order
+
+Revise a paragraph whole. A clause spliced in, or a sentence moved verbatim,
+keeps every defect the sentence had and breaks the sentences around it, which
+were written to follow one another. Rewrite the paragraph as a unit, then check
+the rules against the whole. The smallest diff is not the best prose.
 
 1. Structure: does the paper serve one contribution, does each section and
    paragraph have its arc, and does the abstract alone state the contribution?

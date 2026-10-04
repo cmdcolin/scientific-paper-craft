@@ -112,6 +112,34 @@ Chopping a sentence into fragments makes it shorter but harder to read.
 | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------- |
 | It should be noted that the index was found to be smaller than the scan output, which means that it is able to fit in memory. | The index was smaller than the scan output, so it fits in memory. | Index smaller than scan output. Fits in memory. |
 
+### Credit precisely
+
+Say what you took from prior work: the evidence that an approach works, the
+idea, or the code. "Following X's example" says the implementation derives from
+X. If it does not, say what happened.
+
+| Before                                                               | After                                                                                         |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Following the example of Tool X, we moved rendering to the GPU.      | Tool X's success with GPU rendering inspired this work, which we implemented independently.   |
+
+### Let no fact float
+
+A sentence that states a fact and draws no consequence leaves the reader to
+guess why it is there. End it on the consequence, and when the cause is your
+own work, say so with "because we".
+
+| Before                                                                                             | After                                                                                                      |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Tool X was created for lightweight deployments and redraws every item to a canvas after a zoom.   | Tool X redraws every item to a canvas after a zoom, so its redraw time grows with the number of items.     |
+| The margin is widest at high coverage, where that work is largest.                                 | The margin is widest at high coverage, because we put our optimization work into the parsers.             |
+
+### Revise paragraphs whole
+
+A clause spliced into a paragraph, or a sentence moved verbatim, keeps every
+defect it had and breaks the sentences around it. When a paragraph needs a
+change, rewrite it as a unit, then check the rules against the whole. The
+smallest diff is not the best prose.
+
 ### Revise in a fixed order
 
 Check structure first, then sentence flow, then a hype sweep, then captions,
