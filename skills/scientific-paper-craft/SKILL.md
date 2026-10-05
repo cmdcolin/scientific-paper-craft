@@ -149,6 +149,11 @@ that every word tell."
 - Cut a clause that informs nothing. Keep the connectives (*so*, *because*,
   *which*) that join ideas, and do not split a sentence into fragments to
   shorten it. A long sentence whose clauses each carry information is fine.
+- Define a term in a relative clause that says what it contains, not in a
+  comma-hung appositive that restates it. "A walk, its path through the nodes"
+  makes the reader hold the sentence open across the comma, and "a walk which
+  represents its path" swaps the pause for an abstract verb. Write "a walk that
+  lists, in order, the nodes the haplotype passes through".
 
 ## Revision order
 

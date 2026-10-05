@@ -112,6 +112,17 @@ Chopping a sentence into fragments makes it shorter but harder to read.
 | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------- |
 | It should be noted that the index was found to be smaller than the scan output, which means that it is able to fit in memory. | The index was smaller than the scan output, so it fits in memory. | Index smaller than scan output. Fits in memory. |
 
+### Define a term in a relative clause
+
+A comma-hung appositive restates the noun before the sentence goes on, so the
+reader holds the first half open across the comma. "Represents" in its place
+swaps the pause for an abstract verb and still leaves the term undefined. Say
+what the thing contains, in a relative clause on the noun.
+
+| Before                                                    | Too abstract                                                | After                                                                               |
+| --------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| A graph stores each haplotype as a walk, its path through the nodes. | A graph stores each haplotype as a walk which represents its path. | A graph stores each haplotype as a walk that lists, in order, the nodes the haplotype passes through. |
+
 ### Credit precisely
 
 Say what you took from prior work: the evidence that an approach works, the
