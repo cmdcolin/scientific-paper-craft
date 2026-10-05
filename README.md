@@ -151,6 +151,33 @@ defect it had and breaks the sentences around it. When a paragraph needs a
 change, rewrite it as a unit, then check the rules against the whole. The
 smallest diff is not the best prose.
 
+### Review a passage from three stances
+
+When a sentence will not come right, or a claim carries the paper, launch three
+fresh subagents on it, each in a different stance, and reconcile what they say:
+
+- an editor: is it clear on first read, which words do nothing, what would a
+  copyeditor flag, does the next sentence follow
+- a hostile referee: what would they write in the review, which claim lacks
+  support, what minimal change would they accept
+- a skimming reader: where does it stumble aloud, does every pronoun have an
+  antecedent, do the terms match the sentences around it, would they keep
+  reading
+
+Give each the passage with its neighbours, the project's rules, the list of what
+the author has already rejected, and exact questions. Ask for the verdict first,
+the exact text objected to, and an exact replacement; no whole rewrites. Adopt
+what two of three agree on and treat the rest as questions for the author. Run
+the referee on anything with a number first, since that is the stance that
+turns a wording problem into a measurement problem.
+
+The same split works for generating candidates, and the frame matters more
+than the model. A prompt that is a rulebook returns piles of abstract nouns; a
+persona with a method (an editor reading the whole abstract aloud, a PI writing
+by ear, a science writer listening for cadence) plus the rejected list returns
+sentences a person might write. Ask for ten, each with the sentence that
+follows attached, so the join can be judged, then grade them yourself.
+
 ### Revise in a fixed order
 
 Check structure first, then sentence flow, then a hype sweep, then captions,

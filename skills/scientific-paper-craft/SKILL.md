@@ -155,6 +155,26 @@ that every word tell."
   represents its path" swaps the pause for an abstract verb. Write "a walk that
   lists, in order, the nodes the haplotype passes through".
 
+## Three-stance review
+
+For a sentence that will not come right or a claim that carries the paper,
+launch three fresh subagents, one per stance, on the same passage: an editor
+(clarity, idle words, copyedit flags, does the next sentence follow), a hostile
+referee (what they would write, which claim lacks support, the minimal change
+they would accept) and a skimming reader (stumbles aloud, pronoun antecedents,
+term drift against neighbouring sentences, would they keep reading). Each gets
+the passage with its neighbours, the project's rules, what the author has
+already rejected, and exact questions; each returns verdict first, the exact
+text objected to and an exact replacement, no whole rewrites. Adopt what two of
+three agree on; the rest are questions for the author. Run the referee on
+anything with a number first.
+
+To generate candidates, give a persona with a method rather than a rulebook: an
+editor reading the whole abstract aloud, a PI writing by ear, a science writer
+listening for cadence, each with the rejected list. Ask for ten, each with the
+following sentence attached so the join is visible, and grade them yourself.
+Sonnet-class models are enough for both jobs.
+
 ## Revision order
 
 Revise a paragraph whole. A clause spliced in, or a sentence moved verbatim,
@@ -173,7 +193,8 @@ the rules against the whole. The smallest diff is not the best prose.
    written, and does each Introduction claim have support?
 6. Discussion: does every claim trace to something earlier in the paper?
 7. Feedback: ask someone outside the project where they stopped understanding
-   (Peyton Jones, Mensh & Kording rule 10).
+   (Peyton Jones, Mensh & Kording rule 10), or run the three-stance review
+   above on the passages that carry the paper.
 
 Run `anti-ai-writing-tropes` after this pass. It catches tics such as mannered
 compression and comma-hung appositives, and the concision advice above would
