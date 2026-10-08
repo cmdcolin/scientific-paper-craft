@@ -16,45 +16,40 @@ in the title. "Papers that simultaneously focus on multiple contributions tend
 to be less convincing about each." Medvedev rule 1 asks for the main novel
 contribution stated clearly and succinctly.
 
-- Write the key idea in one sentence before drafting (Peyton Jones). State it
-  in the Introduction: "The main idea of this paper is ...".
+- Write the key idea in one sentence before drafting (Peyton Jones), and state
+  it in the Introduction: "The main idea of this paper is ...".
 - List the contributions as claims, and point each claim to the section that
-  supports it. Medvedev rule 5: every claim in the Introduction has to be
-  supported by the rest of the paper.
-- Put related work where the venue's convention puts it. Peyton Jones suggests
-  the end, and a project's own rule overrides that.
+  supports it. Medvedev rule 5: the rest of the paper supports every claim in
+  the Introduction.
+- Place related work where the venue's convention puts it. Peyton Jones
+  suggests the end.
 - Credit precisely. Say what you took from prior work: the evidence that an
-  approach works, the idea, or the code. "Following X's example" and "with X as
-  our model" tell the reader the implementation derives from X. If it does not,
-  write what happened: "X's success with Y inspired this work, which we
-  implemented independently."
-- A short Introduction is fine; an unanchored one is not. Peyton Jones puts
-  the problem and the contributions on the first page and the history nowhere.
-  Keep it short, and anchor every sentence: cite your own prior release at its
-  first mention, cite the datasets that document the need instead of asserting
-  it, and give the field gap in a peer's words with a citation rather than as
-  your own verdict.
+  approach works, the idea, or the code. "Following X's example" tells the
+  reader the implementation derives from X. When it was independent, write what
+  happened: "X's success with Y inspired this work, which we implemented
+  independently."
+- Keep the Introduction short and anchor every sentence. Peyton Jones puts the
+  problem and the contributions on the first page. Cite your own prior release
+  at its first mention, cite the datasets that document the need, and give the
+  field gap in a peer's words with a citation.
 
 ## Paragraph arcs
 
 Mensh & Kording rule 3, context-content-conclusion. The context sets up the
 story, the content advances it, and the conclusion resolves it.
 
-- A paragraph without context reads as a list of facts.
 - The arc nests. The abstract holds all three parts, with the knowledge gap as
   context, the methods and results as content, and the interpretation as
   conclusion. The Introduction narrows from the field to the gap. Each Results
   paragraph opens with the question it answers and ends on its conclusion.
-- Rule 4: avoid zig-zag, where a paragraph moves between topics and back, and
-  use parallel structure for parallel ideas.
-- A sentence that states a fact and draws no consequence floats, and the
-  reader has to guess why it is there. End it on the consequence ("so its
-  redraw time grows with the reads in view") or open the next sentence on the
-  cause. When the cause is your own work, say so: "because we put our
-  optimization work into the parsers", not "where that work is largest".
-- Parallel items stay at one level of detail. One specific example attached to
-  one item of a general list narrows the reader's view of the whole list; keep
-  the list general and put the example in Results.
+- Rule 4: keep each paragraph on one topic, and give parallel ideas parallel
+  structure.
+- End every sentence that states a fact on its consequence ("so its redraw time
+  grows with the reads in view"), or open the next sentence on the cause. When
+  the cause is your own work, say so: "because we put our optimization work
+  into the parsers".
+- Keep parallel items at one level of detail. A general list stays general, and
+  the specific example goes in Results.
 
 ## Sentence stress
 
@@ -65,23 +60,22 @@ position is its end.
 
 - Start a sentence with what the reader already knows, and end it on the new
   fact.
-- A dangling "it", "this" or "that" in topic position gives the reader nothing
-  to link to. Name the subject.
-- New information in a stress position that nothing later uses may mark a
-  logical gap.
+- Name the subject in topic position, so the reader has something to link to.
+- When new information lands in a stress position that nothing later uses,
+  check for a logical gap.
 
 ## Hype words
 
 Vinkers et al. found that the relative frequency of positive words in PubMed
-abstracts rose 880% from 1974 to 2014, and that of *robust, novel, innovative*
-and *unprecedented* rose 15,000%. The *J. Org. Chem.* author guidelines say not
-to use *convenient, efficient, elegant, expedient, facile, first, new, novel,
-practical, simple, unique, unprecedented* or *versatile*. Treat *powerful,
-crucial, groundbreaking* and *transformative* the same way.
+abstracts rose 880% from 1974 to 2014. The *J. Org. Chem.* author guidelines
+list *convenient, efficient, elegant, expedient, facile, first, new, novel,
+practical, simple, unique, unprecedented* and *versatile* as words to leave out.
+*Powerful, crucial, groundbreaking, robust, innovative* and *transformative*
+belong on the same list.
 
 Delete the adjective. If the sentence still makes the same claim, the adjective
-was rhetoric. Replace it with the number or figure that lets the reader reach
-the judgment.
+was rhetoric. Where the claim needs support, give the number or figure that lets
+the reader reach the judgment.
 
 ## Figures and captions
 
@@ -90,16 +84,16 @@ without the main text.
 
 - Open with a title that says what the figure shows, add only the methods needed
   to read it, state the result, then define the features.
-- Label panels, axes and encodings in the figure or caption. Never send the
-  reader to Methods to decode an axis.
-- One figure carries one message. A figure that supports two claims may be two
+- Label panels, axes and encodings in the figure or caption, so the reader
+  decodes an axis without opening Methods.
+- Give each figure one message. A figure that supports two claims may be two
   figures.
 
 ## Evidence for tool claims
 
 - Medvedev rules 6 and 7: a paper needs a strong theoretical contribution or an
   experimental evaluation, and it compares against other work. A method that
-  seems obviously better still needs the comparison.
+  seems obviously better still gets the comparison.
 - Medvedev rules 9 and 10: describe the algorithm precisely, verify its
   correctness in the experiments, and analyze running time or memory.
 - Romano & Moore: evaluate on high-quality data that is ideally already well
@@ -107,8 +101,8 @@ without the main text.
   Rule 8: keep the code, the documentation and the paper consistent.
 - Give versions, parameters and hardware at the precision a reader needs to
   repeat each number, and tie each number to a named run.
-- A clause that explains why you rejected an alternative is a justification, not
-  a method. Move it to the Discussion with evidence, or cut it.
+- Put the reasons for rejecting an alternative in the Discussion with evidence.
+  Methods describes what you did.
 
 ## Discussion order
 
@@ -117,8 +111,9 @@ interpretation, and the relevance to the field. Annesley also puts limitations
 in the Discussion. Order the section as findings, prior work, limitations, then
 speculation, so that the speculation reads as informed by the limitations.
 
-- Forward-looking claims belong here, and only on findings Results supports.
-- Introduce no new data, citations or ratios in the Discussion.
+- Forward-looking claims belong here, built on findings Results supports.
+- Every data point, citation and ratio in the Discussion appears earlier in the
+  paper.
 
 ## Visualization papers
 
@@ -133,8 +128,8 @@ level has its own validation.
 
 A mistake at a higher level carries down to the levels below it, so a slow
 idiom, a level-4 symptom, can come from a level-2 abstraction mistake. Attribute
-each claim to its level. A rendering benchmark is a level-4 result and does not
-justify a level-3 design choice.
+each claim to its level: a rendering benchmark is a level-4 result, and a
+level-3 design choice needs level-3 evidence.
 
 ## Active voice and concision
 
@@ -142,45 +137,43 @@ Strunk & White: prefer the active voice, and "vigorous writing is concise."
 Concision "requires not that the writer make all his sentences short ... but
 that every word tell."
 
-- A passive with no actor hides who did what, so name the actor. In a software
-  paper, say what the software does, and do not give it intent.
-- Keep idiomatic passives ("is required") and passives whose actor does not
-  matter.
-- Cut a clause that informs nothing. Keep the connectives (*so*, *because*,
-  *which*) that join ideas, and do not split a sentence into fragments to
-  shorten it. A long sentence whose clauses each carry information is fine.
-- Define a term in a relative clause that says what it contains, not in a
-  comma-hung appositive that restates it. "A walk, its path through the nodes"
-  makes the reader hold the sentence open across the comma, and "a walk which
-  represents its path" swaps the pause for an abstract verb. Write "a walk that
+- Name the actor. In a software paper, say what the software does.
+- Idiomatic passives ("is required") and passives whose actor does not matter
+  are fine.
+- Cut clauses that inform nothing. Keep the connectives (*so*, *because*,
+  *which*) that join ideas and write full sentences. A long sentence whose
+  clauses each carry information is fine.
+- Define a term in a relative clause that says what it contains: "a walk that
   lists, in order, the nodes the haplotype passes through".
 
 ## Three-stance review
 
 For a sentence that will not come right or a claim that carries the paper,
-launch three fresh subagents, one per stance, on the same passage: an editor
-(clarity, idle words, copyedit flags, does the next sentence follow), a hostile
-referee (what they would write, which claim lacks support, the minimal change
-they would accept) and a skimming reader (stumbles aloud, pronoun antecedents,
-term drift against neighbouring sentences, would they keep reading). Each gets
-the passage with its neighbours, the project's rules, what the author has
-already rejected, and exact questions; each returns verdict first, the exact
-text objected to and an exact replacement, no whole rewrites. Adopt what two of
-three agree on; the rest are questions for the author. Run the referee on
-anything with a number first.
+launch three fresh subagents, one per stance, on the same passage:
 
-To generate candidates, give a persona with a method rather than a rulebook: an
-editor reading the whole abstract aloud, a PI writing by ear, a science writer
-listening for cadence, each with the rejected list. Ask for ten, each with the
-following sentence attached so the join is visible, and grade them yourself.
-Sonnet-class models are enough for both jobs.
+- an editor: clarity, idle words, copyedit flags, whether the next sentence
+  follows
+- a hostile referee: what they would write, which claim lacks support, the
+  minimal change they would accept
+- a skimming reader: where they stumble aloud, pronoun antecedents, term drift
+  against neighbouring sentences, whether they keep reading
+
+Each gets the passage with its neighbours, the project's rules, what the author
+has already rejected, and exact questions. Each returns a verdict first, the
+exact text in question and an exact replacement. Adopt what two of three agree
+on and put the rest to the author. Run the referee first on anything with a
+number. Sonnet-class models are enough.
+
+To generate candidates, give a persona with a method: an editor reading the
+whole abstract aloud, a PI writing by ear, a science writer listening for
+cadence, each with the rejected list. Ask for ten, each with the following
+sentence attached so the join is visible, and grade them yourself.
 
 ## Revision order
 
-Revise a paragraph whole. A clause spliced in, or a sentence moved verbatim,
-keeps every defect the sentence had and breaks the sentences around it, which
-were written to follow one another. Rewrite the paragraph as a unit, then check
-the rules against the whole. The smallest diff is not the best prose.
+Revise a paragraph whole. The sentences of a paragraph were written to follow
+one another, so rewrite it as a unit and then check the rules against the
+result.
 
 1. Structure: does the paper serve one contribution, does each section and
    paragraph have its arc, and does the abstract alone state the contribution?
@@ -193,12 +186,12 @@ the rules against the whole. The smallest diff is not the best prose.
    written, and does each Introduction claim have support?
 6. Discussion: does every claim trace to something earlier in the paper?
 7. Feedback: ask someone outside the project where they stopped understanding
-   (Peyton Jones, Mensh & Kording rule 10), or run the three-stance review
-   above on the passages that carry the paper.
+   (Peyton Jones, Mensh & Kording rule 10), or run the three-stance review on
+   the passages that carry the paper.
 
 Run `anti-ai-writing-tropes` after this pass. It catches tics such as mannered
-compression and comma-hung appositives, and the concision advice above would
-conflict with it if applied afterward.
+compression and comma-hung appositives, and applying the concision advice above
+afterward would undo its fixes.
 
 ## Sources
 

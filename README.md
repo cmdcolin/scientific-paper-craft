@@ -54,8 +54,8 @@ the new fact.
 ### Replace a hype word with its evidence
 
 Positive words in PubMed abstracts rose 880% between 1974 and 2014 (Vinkers et
-al.), and the _J. Org. Chem._ guidelines tell authors not to use _novel_,
-_unique_ or _unprecedented_. Delete the adjective. If the sentence makes the
+al.), and the _J. Org. Chem._ guidelines list _novel_, _unique_ and _unprecedented_
+as words to leave out. Delete the adjective. If the sentence makes the
 same claim without it, the adjective was rhetoric, and a number or a figure lets
 the reader reach the judgment.
 
@@ -68,7 +68,7 @@ the reader reach the judgment.
 AJE's guide says a caption lets the reader interpret the figure without the main
 text. Open with a title that says what the figure shows, add only the methods
 needed to read it, state the result, then define the features. Label axes and
-encodings in the figure, so no reader opens Methods to decode them.
+encodings in the figure, so the reader decodes them without opening Methods.
 
 | Before                       | After                                                                                                                                                                                               |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -83,30 +83,30 @@ They may be right, but it is important to demonstrate this." Romano & Moore add
 that evaluations should use well-characterized data, and that the paper should
 cite the software release it describes with its own DOI.
 
-A clause that explains why you rejected an alternative is a justification, not a
-method. Move it to the Discussion with evidence, or cut it.
+Put the reasons for rejecting an alternative in the Discussion with evidence.
+Methods describes what you did.
 
 ### Order the Discussion: findings, prior work, limitations, speculation
 
 Mensh & Kording have the Discussion say how the gap was filled, state the
 limitations, and describe the relevance to the field. Order it as findings,
 prior work, limitations, then speculation, so that the speculation reads as
-informed by the limitations. The Discussion introduces no new data or citations.
+informed by the limitations. Every data point and citation in the Discussion appears earlier in the paper.
 
 ### Attribute each visualization claim to one level
 
 Munzner's nested model puts a contribution at one of four levels: the domain
 situation, the data and task abstraction, the encoding and interaction idiom, or
-the algorithm. A rendering benchmark is a level-4 result, and it does not
-justify a level-3 design choice. A mistake at a higher level carries down to the
+the algorithm. A rendering benchmark is a level-4 result, and a level-3
+design choice needs level-3 evidence. A mistake at a higher level carries down to the
 levels below it.
 
 ### Cut words that carry no information
 
 Strunk & White: "Vigorous writing is concise." The same rule goes on to say that
 this "requires not that the writer make all his sentences short ... but that
-every word tell." Cut filler, and keep the connectives that join the ideas.
-Chopping a sentence into fragments makes it shorter but harder to read.
+every word tell." Cut filler, keep the connectives that join the ideas, and write full
+sentences: fragments are shorter and harder to read.
 
 | Before                                                                                                                        | After                                                             | Too far                                         |
 | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------- |
@@ -114,14 +114,12 @@ Chopping a sentence into fragments makes it shorter but harder to read.
 
 ### Define a term in a relative clause
 
-A comma-hung appositive restates the noun before the sentence goes on, so the
-reader holds the first half open across the comma. "Represents" in its place
-swaps the pause for an abstract verb and still leaves the term undefined. Say
-what the thing contains, in a relative clause on the noun.
+Say what the thing contains, in a relative clause on the noun. The reader gets
+the definition in one pass, with no comma to hold open.
 
-| Before                                                    | Too abstract                                                | After                                                                               |
-| --------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| A graph stores each haplotype as a walk, its path through the nodes. | A graph stores each haplotype as a walk which represents its path. | A graph stores each haplotype as a walk that lists, in order, the nodes the haplotype passes through. |
+| Before                                                               | After                                                                                                 |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| A graph stores each haplotype as a walk, its path through the nodes. | A graph stores each haplotype as a walk that lists, in order, the nodes the haplotype passes through. |
 
 ### Credit precisely
 
@@ -146,10 +144,9 @@ own work, say so with "because we".
 
 ### Revise paragraphs whole
 
-A clause spliced into a paragraph, or a sentence moved verbatim, keeps every
-defect it had and breaks the sentences around it. When a paragraph needs a
-change, rewrite it as a unit, then check the rules against the whole. The
-smallest diff is not the best prose.
+The sentences of a paragraph were written to follow one another. When a
+paragraph needs a change, rewrite it as a unit, then check the rules against
+the whole.
 
 ### Review a passage from three stances
 
@@ -172,18 +169,17 @@ the referee on anything with a number first, since that is the stance that
 turns a wording problem into a measurement problem.
 
 The same split works for generating candidates, and the frame matters more
-than the model. A prompt that is a rulebook returns piles of abstract nouns; a
-persona with a method (an editor reading the whole abstract aloud, a PI writing
-by ear, a science writer listening for cadence) plus the rejected list returns
-sentences a person might write. Ask for ten, each with the sentence that
+than the model. A persona with a method (an editor reading the whole abstract
+aloud, a PI writing by ear, a science writer listening for cadence) plus the
+rejected list returns sentences a person might write. Ask for ten, each with the sentence that
 follows attached, so the join can be judged, then grade them yourself.
 
 ### Revise in a fixed order
 
 Check structure first, then sentence flow, then a hype sweep, then captions,
 then evidence, then the Discussion, then ask someone outside the project where
-they stopped understanding. Fixing sentences before structure polishes
-paragraphs the paper may cut.
+they stopped understanding. Structure decides which paragraphs survive, so
+polish sentences last.
 
 ## Install
 
