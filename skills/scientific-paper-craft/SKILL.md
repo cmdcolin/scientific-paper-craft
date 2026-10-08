@@ -21,8 +21,8 @@ contribution stated clearly and succinctly.
 - List the contributions as claims, and point each claim to the section that
   supports it. Medvedev rule 5: the rest of the paper supports every claim in
   the Introduction.
-- Place related work where the venue's convention puts it. Peyton Jones
-  suggests the end.
+- Place related work where the venue's convention puts it (Peyton Jones
+  suggests the end).
 - Credit precisely. Say what you took from prior work: the evidence that an
   approach works, the idea, or the code. "Following X's example" tells the
   reader the implementation derives from X. When it was independent, write what
@@ -66,16 +66,15 @@ position is its end.
 
 ## Hype words
 
-Vinkers et al. found that the relative frequency of positive words in PubMed
-abstracts rose 880% from 1974 to 2014. The *J. Org. Chem.* author guidelines
-list *convenient, efficient, elegant, expedient, facile, first, new, novel,
+Positive words in PubMed abstracts rose 880% from 1974 to 2014 (Vinkers et
+al.). The *J. Org. Chem.* author guidelines list *convenient, efficient, elegant, expedient, facile, first, new, novel,
 practical, simple, unique, unprecedented* and *versatile* as words to leave out.
-*Powerful, crucial, groundbreaking, robust, innovative* and *transformative*
-belong on the same list.
+Add *powerful, crucial, groundbreaking, robust, innovative* and
+*transformative*.
 
 Delete the adjective. If the sentence still makes the same claim, the adjective
-was rhetoric. Where the claim needs support, give the number or figure that lets
-the reader reach the judgment.
+was rhetoric. Where the claim needs support, give the number that lets the
+reader reach the judgment.
 
 ## Figures and captions
 
